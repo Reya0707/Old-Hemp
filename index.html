@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Old Hemp: History of Border Collies</title>
+</head>
+
+<body>
+  <style>
+    body {
+      background-color: #22313f;
+      color: #e4f1fe;
+      border-radius: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+      border: 1px solid;
+      line-height: 2.0;
+      border-radius: 4px;
+      margin: auto 10px;
+      padding: 10px;
+    }
+
+    img {
+      display: auto block;
+      margin: 0 auto;
+      padding: 20px;
+      max-width: 95%;
+      border-radius: 5%;
+    }
+
+    button {
+      transition: all 200ms ease-in-out;
+      border-radius: 20px;
+      display: block;
+      margin: 15px auto;
+      background-color: #8dc6ff;
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #09203f;
+      cursor: pointer;
+      line-height: 2;
+      box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.3);
+
+    }
+
+    button :hover {
+      border: 2px solid transparent;
+      color: #e4f1fe;
+      transform: scale(1.05);
+      will-change: transform;
+
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 15px 60px;
+      background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
+      font-family: SerifGothic;
+    }
+
+    .hemp-introduction {
+
+      font-size: medium;
+      text-align: center;
+
+    }
+
+    .breed {
+      margin: auto;
+      padding: 10px 30px;
+      line-height: 1.5;
+      font-size: medium;
+    }
+
+    .old-hemp {
+      color: #8dc6ff;
+      margin-left: 30px;
+      margin-top: auto;
+
+    }
+
+    .reya-contact {
+      color: #e4f1fe;
+    }
+
+    .footer {
+      padding-top: 15px;
+      text-align: center;
+      color: #8dc6ff;
+    }
+  </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        Old Hemp - The Grandfather of Border Collies
+      </h1>
+      <h2>
+        ( 1 September 1893 - May 1901 )
+      </h2>
+
+      <h3 class="hemp-introduction">
+        Hemp is considered the foundation sire or <em>
+          "father" of the Border Collie breed.
+        </em> He was
+        owned by Adam Telfer, and was used as a working dog to herd sheep. His style was different from that
+        commonly seen
+        during his era, as he worked far more quietly than the other sheepdogs of the time. This style was
+        adopted and used by
+        other breeders and trainers, and became the most common style among Border Collies within a few
+        generations, with his
+        descendants becoming successful international sheepdog champions.
+      </h3>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/824/original/AuldHemp.jpeg?1700773400"
+        alt="Old Hemp" />
+      <p class="breed">
+        The modern Border Collie is recognised to be an <em>
+          extremely intelligent, athletic, and energetic breed.
+        </em>
+        The breed
+        originated in Northumberland on the borders of England and Scotland, having been developed over
+        centuries for herding
+        sheep. There is some debate over the origins of the breed, although they are likely traced back to the
+        Romans two
+        thousand years ago who brought their drover dogs with them, and the Vikings who invaded this part of
+        England some 1200
+        years ago and brought their Spitz-type dogs with them. Regardless of its origins, the Border Collie is
+        now recognized as
+        the ultimate herding dog with a natural instinct to herd using its “eye” (controlling livestock by
+        staring at them in a
+        silent and controlled manner) that is unlike any other dog breed.
+        </br>
+        <a href="https://en.wikipedia.org/wiki/Old_Hemp" target="_blank" class="old-hemp">
+          <p>
+            <em>
+              Check out Wiki for more on Old Hemp
+            </em>
+          </p>
+        </a>
+      </p>
+      <button>
+        <strong> Support your local Border Collie rescue 🐾</strong>
+        </a>
+      </button>
+      <p class="footer">
+        This page was built by
+        <a href="https://www.bordercollietrustgb.org.uk/" target="_blank" class="reya-contact">
+          Reya El Thaalabi
+
+        </a>
+      </p>
+    </div>
+    <script>
+
+      function support() {
+        let name = prompt("What is your name? 🐶");
+        alert("Hello 👋" + name + ", Thank you for showing an interest in the most amazing dog breed🐾💙!")
+      }
+
+      let supportHemp = document.querySelector("button");
+      supportHemp.addEventListener("click", support);
+
+    </script>
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
